@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- local css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- font awsome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>Login Page</title>
+  </head>
+  <body>
+    <section class="form-section">
+      <div class="bg">
+        <div class="container">
+          <div class="form-content">
+            <div class="logo text-center my-5">
+              <img
+                src="https://preview.keenthemes.com/good-react/media/logos/default.svg"
+                alt="logo"
+              />
+            </div>
+            <div class="main-form mx-auto p-5">
+              <div class="form-head text-center">
+                <h4>Sign In to Good</h4>
+                <span class="fw-bold new-here">New Here?</span>
+                <a href="#" class="text-decoration-none fw-bold create-account"
+                  >Create an Account</a
+                >
+              </div>
+              <div class="my-4 p-4 pe-5 inst-text small">
+                Use account <strong>admin@demo.com</strong> and password
+                <strong>demo</strong> to continue.
+              </div>
+              <form class="mt-4  needs-validation" novalidate>
+                <div class="mb-3">
+                  <label for="validationCustom01" class="form-label"
+                    >Email</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control input"
+                    value="admin@demo.com"
+                    pattern=".+@demo\.com"
+                    id="validationCustom01"
+                    aria-describedby="emailHelp"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="validationCustom02" class="form-label"
+                    >Password</label
+                  >
+                  <a
+                    href="#"
+                    class="text-decoration-none fw-bold create-account"
+                    >Forgot Password ?</a
+                  >
+                  <input
+                    type="password"
+                    class="form-control input"
+                    value="demo"
+                    id="validationCustom02"
+                    required
+                  />
+                </div>
+                <div class="d-grid">
+                  <input
+                    type="submit"
+                    class="btn text-light fw-bold"
+                    value="Continue"
+                  />
+                  <div class="text-center small or-text my-2">OR</div>
+                  <a
+                    class="btn social-log d-flex justify-content-center align-items-center"
+                  >
+                    <img
+                      src="https://preview.keenthemes.com/good-react/media/svg/brand-logos/google-icon.svg"
+                      alt="logo"
+                      class="pe-2 google-logo"
+                    />Continue with Google</a
+                  >
+                  <a
+                    class="btn social-log d-flex justify-content-center align-items-center my-3"
+                  >
+                    <img
+                      src="https://preview.keenthemes.com/good-react/media/svg/brand-logos/facebook-4.svg"
+                      alt="logo"
+                      class="pe-2 google-logo"
+                    />Continue with Facebook</a
+                  >
+                  <a
+                    class="btn social-log d-flex justify-content-center align-items-center"
+                  >
+                    <img
+                      src="https://preview.keenthemes.com/good-react/media/svg/brand-logos/apple-black.svg"
+                      alt="logo"
+                      class="pe-2 google-logo"
+                    />Continue with Apple</a
+                  >
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="ft-links text-center pb-4">
+          <a href="#" class="text-decoration-none">About</a>
+          <a href="#" class="text-decoration-none mx-2">Contact</a>
+          <a href="#" class="text-decoration-none">Contact Us</a>
+        </div>
+      </div>
+    </section>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

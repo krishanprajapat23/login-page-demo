@@ -1,0 +1,111 @@
+body {
+
+}
+
+div.bg {
+    background-image: url(https://preview.keenthemes.com/good-react/media/illustrations/sketchy-1/14.png);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.form-content img {
+    max-width: 144px;
+    width: 100%;
+}
+
+div.main-form {
+    background-color: white;
+    max-width: 30rem;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 10%), 0 6px 20px 0 rgb(0 0 0 / 4%);
+    border-radius: 10px;
+}
+
+ input[type=submit] {
+    background-color: #4fc9da;
+    border-color: #4fc9da;
+    opacity: 0.8;
+    border-radius: 10px;
+
+}
+
+input[type=submit]:hover {
+    background-color: #4fc9da;
+    border-color: #4fc9da;
+    opacity: 1;
+}
+
+a.create-account {
+    color: #4fc9da;    
+    opacity: 0.8;
+}
+
+.new-here, .or-text {
+    color: #968e7e;
+}
+
+a.create-account:hover {
+    color: #4fc9da;    
+    opacity: 1;
+}
+
+.inst-text {
+    color: #4e56c5;
+    background-color: #eff0ff !important;
+    border-radius: 10px;
+}
+
+label, .or-text {
+    font-weight: 600;
+}
+
+
+input.input, .social-log {    
+    border-radius: 10px;
+    background-color: #f8f6f2;
+    border-color: #f8f6f2;
+    color: #716d66;
+}
+
+input.input:focus {
+    background-color: #f6f1e9;
+    box-shadow: none;
+    border-color: #f8f6f2;
+
+}
+
+a.social-log:focus {
+    box-shadow: none;
+}
+
+a.social-log {    
+    border-radius: 10px;
+    border-color: #f8f6f2;
+    color: #968e7e;
+    background-color: #f8f6f2;
+    font-weight: 600;
+}
+
+a.social-log:hover {
+    background-color: #f6f1e9;
+    color: #716d66;
+}
+
+img.google-logo {
+    max-width: 26px;
+}
+
+.ft-links {
+    margin-top: 5rem;
+}
+
+.ft-links a {
+    color: #968e7e;
+}
+
+.ft-links a:hover {
+    color: #4fc9da;   
+}
